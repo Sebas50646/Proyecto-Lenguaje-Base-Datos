@@ -185,7 +185,7 @@
                                                        th:field="*{activo}">
                                             </div>
                                             <div class="mb-3">
-                                                <label for="imagen">[[#{producto.rutaImagen}]]</label>
+                                                <label for="imagen">[[#{producto.imagen}]]</label>
                                                 <input class="form-control" type="file" name="imagenFile"
                                                        onchange="readURL(this);" />
                                                 <img id="blah" th:src="@{${producto.rutaImagen}}" alt="your image" height="200"/>
